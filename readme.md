@@ -1,1 +1,1 @@
-# CLRS implementations
+# CLRS implementations in ipython notebooks
