@@ -51,9 +51,9 @@ void printArr(int arr[], int size){
 
 int main()
 {
-    int arr[5] = {4, 3, 1, 8, 7};
+    int arr[14] = {4,3,1,8,7,4,5,6,8,3,4,5,67,7};
     int arr_size = sizeof(arr) / sizeof(arr[0]);
-    //printArr(arr, arr_size);
+    printArr(arr, arr_size);
     MERGE_SORT(arr, 0, arr_size-1);
     printArr(arr, arr_size);
     return 0;
