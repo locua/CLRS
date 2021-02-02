@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 // 
 // C function using pass by value. (Notice no &) 
 // 
@@ -14,10 +15,18 @@ doit( int  x [] )
 int 
 main() 
 { 
-    for(int x =0; x < 1; x++){
-        printf("x  %d\n", x); 
-    }
+//    for(int x =0; x < 1; x++){
+//        printf("x  %d\n", x); 
+//    }
 
+    char yo= 0;
+    if(yo==0)
+        printf("not yo\n");
+    char ye= 1;
+    if(ye==1)
+        printf("ye\n");
+    
+    
   return 0; 
 } 
 
