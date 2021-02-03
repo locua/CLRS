@@ -9,9 +9,6 @@ void printArr(int arr[], int size){
 }
 
 void MERGE_SORT(int arr[], int low, int high){
-    //int arr_size = sizeof(arr) / sizeof(arr[0]);
-    int arr_size=14;
-    printArr(arr, arr_size);
     if(low < high){
         int mid = floor((low+high)/2);
         MERGE_SORT(arr, low, mid);
