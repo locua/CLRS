@@ -10,8 +10,6 @@ void printArr(int array[], int size){
 void BUBBLESORT(int arr[], int len){  
     for(int i = 0; i < len-2; i++){
         for(int j = len-1; j >= i+1; j--){
-            //printf("arr[j] = %d \n", arr[j]);
-            //printf("arr[j-1] = %d \n", arr[j-1]);
             if(arr[j] < arr[j - 1]){
                 // swap elements
                 printf("swapped %d and %d \n", arr[j], arr[j-1]);
