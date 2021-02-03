@@ -1,4 +1,6 @@
 #include <stdio.h>
+/* Bubblesort is a popular, but inefficient, sorting algorithm. It works by repeatedly
+swapping adjacent elements that are out of order */
 
 void printArr(int array[], int size){
     int i;
